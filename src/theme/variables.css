@@ -1,0 +1,11 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+ion-content {
+    --background: none !important; /* Désactive le background d'Ionic */
+  }
+
+  ion-modal {
+    --background: transparent;
+    --backdrop-opacity: 0.4;
+  }
+  
