@@ -1,15 +1,17 @@
 {
-  "name": "ionic-app-base",
+  "homepage": "https://sharmAurel.github.io/yams-app",
+  "name": "yamsss",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vue-tsc && vite build && vue-cli-service build",
     "preview": "vite preview",
     "test:e2e": "cypress run",
     "test:unit": "vitest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "@ionic/vue": "^8.0.0",
