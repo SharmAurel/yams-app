@@ -6,6 +6,7 @@ import RankingView from '../views/RankingView.vue';
 
 
 const routes: Array<RouteRecordRaw> = [
+  
   {
     path: '/',
     redirect: '/home'
